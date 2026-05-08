@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs AI Chatbot</title>
+    <meta name="description" content="DecodeLabs Rule-Based AI Chatbot - Ask about internships, AI, Python, certificates and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container" id="chatContainer">
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="header-avatar">
+                <div class="avatar-ring">
+                    <div class="avatar-icon">🤖</div>
+                </div>
+                <div class="status-dot"></div>
+            </div>
+            <div class="header-info">
+                <h1>DecodeLabs AI</h1>
+                <p class="status-text">Online • Ready to help</p>
+            </div>
+        </div>
+
+        <!-- Messages Area -->
+        <div class="chat-messages" id="chatMessages">
+            <!-- Welcome message -->
+            <div class="message bot-message animate-in">
+                <div class="message-avatar">🤖</div>
+                <div class="message-content">
+                    <div class="message-bubble">
+                        Hello! Welcome to <strong>DecodeLabs AI Chatbot</strong> 🤖<br>
+                        Ask me about internships, AI, Python, certificates, mentorship, and careers!
+                    </div>
+                    <span class="message-time" id="welcomeTime"></span>
+                </div>
+            </div>
+
+            <!-- Quick Action Chips -->
+            <div class="quick-actions" id="quickActions">
+                <button class="chip" onclick="sendQuickMessage('What is DecodeLabs?')">🏢 DecodeLabs</button>
+                <button class="chip" onclick="sendQuickMessage('Tell me about internship')">📋 Internships</button>
+                <button class="chip" onclick="sendQuickMessage('Tell me about AI')">🧠 AI</button>
+                <button class="chip" onclick="sendQuickMessage('What skills do I need?')">💡 Skills</button>
+                <button class="chip" onclick="sendQuickMessage('How to get certificate?')">📜 Certificate</button>
+                <button class="chip" onclick="sendQuickMessage('help')">❓ Help</button>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="chat-input-area">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    placeholder="Type your message..." 
+                    autocomplete="off"
+                    autofocus
+                >
+                <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
