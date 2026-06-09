@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Machine Learning Fundamentals",
+    "tags": "machine learning algorithms supervised unsupervised regression classification python scikit-learn"
+  },
+  {
+    "name": "Python for AI",
+    "tags": "python programming ai artificial intelligence numpy pandas matplotlib data analysis"
+  },
+  {
+    "name": "Data Science Introduction",
+    "tags": "data science statistics probability data analysis visualization pandas python"
+  },
+  {
+    "name": "Deep Learning with TensorFlow",
+    "tags": "deep learning neural networks tensorflow keras convolutional recurrent python ai"
+  },
+  {
+    "name": "Natural Language Processing",
+    "tags": "nlp natural language processing text classification sentiment analysis transformers bert python"
+  },
+  {
+    "name": "Computer Vision Basics",
+    "tags": "computer vision image recognition object detection opencv convolutional neural network deep learning"
+  },
+  {
+    "name": "Reinforcement Learning",
+    "tags": "reinforcement learning reward agent environment policy q-learning deep learning ai"
+  },
+  {
+    "name": "Data Visualization with Matplotlib",
+    "tags": "data visualization matplotlib seaborn plotly charts graphs python analytics"
+  },
+  {
+    "name": "SQL for Data Analysis",
+    "tags": "sql database queries data analysis joins aggregations relational databases"
+  },
+  {
+    "name": "Big Data with Apache Spark",
+    "tags": "big data spark hadoop distributed computing pyspark scala data engineering"
+  },
+  {
+    "name": "Time Series Forecasting",
+    "tags": "time series forecasting arima lstm prophet trend seasonality python"
+  },
+  {
+    "name": "Feature Engineering",
+    "tags": "feature engineering selection extraction preprocessing machine learning scikit-learn python"
+  },
+  {
+    "name": "Generative AI and LLMs",
+    "tags": "generative ai large language models llm gpt chatgpt prompt engineering transformers"
+  },
+  {
+    "name": "MLOps and Model Deployment",
+    "tags": "mlops model deployment docker kubernetes flask fastapi ci cd machine learning pipeline"
+  },
+  {
+    "name": "Statistics for Machine Learning",
+    "tags": "statistics probability hypothesis testing distributions bayesian inference machine learning"
+  },
+  {
+    "name": "Recommender Systems",
+    "tags": "recommender systems collaborative filtering content based filtering matrix factorization python"
+  },
+  {
+    "name": "Web Scraping with Python",
+    "tags": "web scraping beautifulsoup selenium requests python data collection automation"
+  },
+  {
+    "name": "Linear Algebra for AI",
+    "tags": "linear algebra vectors matrices operations machine learning mathematics numpy python"
+  },
+  {
+    "name": "Neural Network Architecture",
+    "tags": "neural network architecture layers activation functions backpropagation deep learning ai"
+  },
+  {
+    "name": "Cloud AI Services (AWS, GCP)",
+    "tags": "cloud ai aws gcp azure machine learning services deployment sagemaker vertex ai"
+  }
+]
